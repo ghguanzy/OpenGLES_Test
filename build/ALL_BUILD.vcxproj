@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2B389144-E560-376C-864A-27A8B6A9A536}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Test\OpenGLES_Test\opengles3-book-master\External\Include;E:\Test\OpenGLES_Test\opengles3-book-master\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Test\OpenGLES_Test\opengles3-book-master\External\Include;E:\Test\OpenGLES_Test\opengles3-book-master\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Test\OpenGLES_Test\opengles3-book-master\External\Include;E:\Test\OpenGLES_Test\opengles3-book-master\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Test\OpenGLES_Test\opengles3-book-master\External\Include;E:\Test\OpenGLES_Test\opengles3-book-master\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Test\OpenGLES_Test\opengles3-book-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Test/OpenGLES_Test/opengles3-book-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Test/OpenGLES_Test/opengles3-book-master -BE:/Test/OpenGLES_Test/build --check-stamp-file E:/Test/OpenGLES_Test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/Test/OpenGLES_Test/opengles3-book-master/CMakeLists.txt;E:\Test\OpenGLES_Test\opengles3-book-master\CMakeLists.txt;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeCCompiler.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\Test\OpenGLES_Test\opengles3-book-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Test\OpenGLES_Test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Test/OpenGLES_Test/opengles3-book-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Test/OpenGLES_Test/opengles3-book-master -BE:/Test/OpenGLES_Test/build --check-stamp-file E:/Test/OpenGLES_Test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/Test/OpenGLES_Test/opengles3-book-master/CMakeLists.txt;E:\Test\OpenGLES_Test\opengles3-book-master\CMakeLists.txt;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeCCompiler.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\Test\OpenGLES_Test\opengles3-book-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Test\OpenGLES_Test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Test/OpenGLES_Test/opengles3-book-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Test/OpenGLES_Test/opengles3-book-master -BE:/Test/OpenGLES_Test/build --check-stamp-file E:/Test/OpenGLES_Test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/Test/OpenGLES_Test/opengles3-book-master/CMakeLists.txt;E:\Test\OpenGLES_Test\opengles3-book-master\CMakeLists.txt;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeCCompiler.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\Test\OpenGLES_Test\opengles3-book-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Test\OpenGLES_Test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Test/OpenGLES_Test/opengles3-book-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Test/OpenGLES_Test/opengles3-book-master -BE:/Test/OpenGLES_Test/build --check-stamp-file E:/Test/OpenGLES_Test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/Test/OpenGLES_Test/opengles3-book-master/CMakeLists.txt;E:\Test\OpenGLES_Test\opengles3-book-master\CMakeLists.txt;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeCCompiler.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Test\OpenGLES_Test\build\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\Test\OpenGLES_Test\opengles3-book-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Test\OpenGLES_Test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\ZERO_CHECK.vcxproj">
+      <Project>{9A01FC0F-C906-3B90-AAD4-4F12BA9E9045}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Common\Common.vcxproj">
+      <Project>{B4FDFA94-BD65-3E91-801D-9128E129710C}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_6\Example_6_3\Example_6_3.vcxproj">
+      <Project>{1746211F-4366-3D16-9E34-C3F392761834}</Project>
+      <Name>Example_6_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_6\Example_6_6\Example_6_6.vcxproj">
+      <Project>{A937F0C4-403B-3077-8A37-40CFB84D57EC}</Project>
+      <Name>Example_6_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_2\Hello_Triangle\Hello_Triangle.vcxproj">
+      <Project>{294882F8-E6BD-34C0-BE3C-606FAD4954EA}</Project>
+      <Name>Hello_Triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_7\Instancing\Instancing.vcxproj">
+      <Project>{313553A8-7086-3DB0-BD94-809C4A53ECA1}</Project>
+      <Name>Instancing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_11\MRTs\MRTs.vcxproj">
+      <Project>{80CE5C67-F0C0-3C0D-B45D-72B51D68920A}</Project>
+      <Name>MRTs</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_6\MapBuffers\MapBuffers.vcxproj">
+      <Project>{2B151584-0470-3CB3-898F-C81EAE735565}</Project>
+      <Name>MapBuffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_9\MipMap2D\MipMap2D.vcxproj">
+      <Project>{4F17A6A1-DFAA-3252-8BD6-8D23BDCDFC96}</Project>
+      <Name>MipMap2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_10\MultiTexture\MultiTexture.vcxproj">
+      <Project>{79ADF057-BA3A-3670-974D-E21FBA049815}</Project>
+      <Name>MultiTexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_14\Noise3D\Noise3D.vcxproj">
+      <Project>{8ABE6C2B-0444-35F9-AFC5-4C23BEEADC61}</Project>
+      <Name>Noise3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_14\ParticleSystem\ParticleSystem.vcxproj">
+      <Project>{4EE8677C-0A94-3460-B90B-DC5EC28F9C0F}</Project>
+      <Name>ParticleSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_14\ParticleSystemTransformFeedback\ParticleSystemTransformFeedback.vcxproj">
+      <Project>{7BDFA6B6-A324-3617-A942-EE206A88C8AB}</Project>
+      <Name>ParticleSystemTransformFeedback</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_14\Shadows\Shadows.vcxproj">
+      <Project>{4B454F5C-E420-3C83-830A-AF3CC119C1A2}</Project>
+      <Name>Shadows</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_9\Simple_Texture2D\Simple_Texture2D.vcxproj">
+      <Project>{B4DEFFD2-8DE9-382B-979E-D15EB828B9BD}</Project>
+      <Name>Simple_Texture2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_9\Simple_TextureCubemap\Simple_TextureCubemap.vcxproj">
+      <Project>{39AC2597-A136-3D94-BFBA-D5C4C2A88C72}</Project>
+      <Name>Simple_TextureCubemap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_8\Simple_VertexShader\Simple_VertexShader.vcxproj">
+      <Project>{94C2CA39-39FE-30A3-950F-CE38D6770DBE}</Project>
+      <Name>Simple_VertexShader</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_14\TerrainRendering\TerrainRendering.vcxproj">
+      <Project>{04FD45B2-C33E-3558-A682-E4359D2D873A}</Project>
+      <Name>TerrainRendering</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_9\TextureWrap\TextureWrap.vcxproj">
+      <Project>{3F132024-0CE0-32FD-B376-2840C496E176}</Project>
+      <Name>TextureWrap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_6\VertexArrayObjects\VertexArrayObjects.vcxproj">
+      <Project>{49014782-DB80-3843-AF0F-A01709A0079C}</Project>
+      <Name>VertexArrayObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\OpenGLES_Test\build\Chapter_6\VertexBufferObjects\VertexBufferObjects.vcxproj">
+      <Project>{33835C1E-DBE6-3A5F-B035-F863E39468F6}</Project>
+      <Name>VertexBufferObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿生成启动时间为 2018/2/5 15:02:48。
+     1>项目“E:\Test\OpenGLES_Test\build\Chapter_9\MipMap2D\MipMap2D.vcxproj”在节点 4 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule E:/Test/OpenGLES_Test/opengles3-book-master/Chapter_9/MipMap2D/CMakeLists.txt
+         CMake does not need to re-run because E:/Test/OpenGLES_Test/build/Chapter_9/MipMap2D/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"E:\Test\OpenGLES_Test\opengles3-book-master\External\Include" /I"E:\Test\OpenGLES_Test\opengles3-book-master\Common\Include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"MipMap2D.dir\Debug\\" /Fd"MipMap2D.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "E:\Test\OpenGLES_Test\opengles3-book-master\Chapter_9\MipMap2D\MipMap2D.c"
+         MipMap2D.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Test\OpenGLES_Test\build\Chapter_9\MipMap2D\Debug\MipMap2D.exe" /INCREMENTAL /NOLOGO ..\..\Common\Debug\Common.lib C:\AdrenoSDK\Development\Lib\x64\libGLESv2.lib C:\AdrenoSDK\Development\Lib\x64\libEGL.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Test/OpenGLES_Test/build/Chapter_9/MipMap2D/Debug/MipMap2D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Test/OpenGLES_Test/build/Chapter_9/MipMap2D/Debug/MipMap2D.lib" /MACHINE:X64  /machine:x64 MipMap2D.dir\Debug\MipMap2D.obj
+         MipMap2D.vcxproj -> E:\Test\OpenGLES_Test\build\Chapter_9\MipMap2D\Debug\MipMap2D.exe
+     1>已完成生成项目“E:\Test\OpenGLES_Test\build\Chapter_9\MipMap2D\MipMap2D.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.75

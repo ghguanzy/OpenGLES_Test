@@ -1,0 +1,16 @@
+﻿生成启动时间为 2018/2/5 15:02:46。
+     1>项目“E:\Test\OpenGLES_Test\build\Chapter_7\Instancing\Instancing.vcxproj”在节点 5 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule E:/Test/OpenGLES_Test/opengles3-book-master/Chapter_7/Instancing/CMakeLists.txt
+         CMake does not need to re-run because E:/Test/OpenGLES_Test/build/Chapter_7/Instancing/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"E:\Test\OpenGLES_Test\opengles3-book-master\External\Include" /I"E:\Test\OpenGLES_Test\opengles3-book-master\Common\Include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Instancing.dir\Debug\\" /Fd"Instancing.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "E:\Test\OpenGLES_Test\opengles3-book-master\Chapter_7\Instancing\Instancing.c"
+         Instancing.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Test\OpenGLES_Test\build\Chapter_7\Instancing\Debug\Instancing.exe" /INCREMENTAL /NOLOGO ..\..\Common\Debug\Common.lib C:\AdrenoSDK\Development\Lib\x64\libGLESv2.lib C:\AdrenoSDK\Development\Lib\x64\libEGL.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Test/OpenGLES_Test/build/Chapter_7/Instancing/Debug/Instancing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Test/OpenGLES_Test/build/Chapter_7/Instancing/Debug/Instancing.lib" /MACHINE:X64  /machine:x64 Instancing.dir\Debug\Instancing.obj
+         Instancing.vcxproj -> E:\Test\OpenGLES_Test\build\Chapter_7\Instancing\Debug\Instancing.exe
+     1>已完成生成项目“E:\Test\OpenGLES_Test\build\Chapter_7\Instancing\Instancing.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.28

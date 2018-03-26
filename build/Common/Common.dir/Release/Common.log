@@ -1,0 +1,30 @@
+﻿生成启动时间为 2018/2/5 15:18:51。
+     1>项目“E:\Test\OpenGLES_Test\build\Common\Common.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule E:/Test/OpenGLES_Test/opengles3-book-master/Common/CMakeLists.txt
+         CMake does not need to re-run because E:/Test/OpenGLES_Test/build/Common/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"E:\Test\OpenGLES_Test\opengles3-book-master\External\Include" /I"E:\Test\OpenGLES_Test\opengles3-book-master\Common\Include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Common.dir\Release\\" /Fd"Common.dir\Release\vc120.pdb" /Gd /TC /errorReport:prompt "E:\Test\OpenGLES_Test\opengles3-book-master\Common\Source\esShader.c" "E:\Test\OpenGLES_Test\opengles3-book-master\Common\Source\esShapes.c" "E:\Test\OpenGLES_Test\opengles3-book-master\Common\Source\esTransform.c" "E:\Test\OpenGLES_Test\opengles3-book-master\Common\Source\esUtil.c" "E:\Test\OpenGLES_Test\opengles3-book-master\Common\Source\Win32\esUtil_win32.c"
+         esShader.c
+         esShapes.c
+         esTransform.c
+         esUtil.c
+     1>E:\Test\OpenGLES_Test\opengles3-book-master\Common\Source\esUtil.c(297): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“vsprintf”的声明
+     1>E:\Test\OpenGLES_Test\opengles3-book-master\Common\Source\esUtil.c(331): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>E:\Test\OpenGLES_Test\opengles3-book-master\Common\Source\esUtil.c(372): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         esUtil_win32.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\Test\OpenGLES_Test\build\Common\Release\Common.lib" /NOLOGO /MACHINE:X64  /machine:x64 Common.dir\Release\esShader.obj
+         Common.dir\Release\esShapes.obj
+         Common.dir\Release\esTransform.obj
+         Common.dir\Release\esUtil.obj
+         Common.dir\Release\esUtil_win32.obj
+         Common.vcxproj -> E:\Test\OpenGLES_Test\build\Common\Release\Common.lib
+     1>已完成生成项目“E:\Test\OpenGLES_Test\build\Common\Common.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.10
