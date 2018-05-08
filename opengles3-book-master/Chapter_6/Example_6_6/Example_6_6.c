@@ -157,11 +157,12 @@ void Draw ( ESContext *esContext )
    UserData *userData = esContext->userData;
 
    // 3 vertices, with (x,y,z) ,(r, g, b, a) per-vertex
-   GLfloat vertexPos[3 * VERTEX_POS_SIZE] =
+   GLfloat vertexPos[4 * VERTEX_POS_SIZE] =
    {
       0.0f,  0.5f, 0.0f,        // v0
       -0.5f, -0.5f, 0.0f,        // v1
-      0.5f, -0.5f, 0.0f         // v2
+      0.5f, -0.5f, 0.0f,         // v2
+	  -0.5f, 0.5f, 0.0f,         // v3
    };
    GLfloat color[4 * VERTEX_COLOR_SIZE] =
    {
