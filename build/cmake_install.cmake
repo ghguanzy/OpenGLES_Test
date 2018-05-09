@@ -54,6 +54,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("E:/Test/OpenGLES_Test/build/Chapter_14/ParticleSystemTransformFeedback/cmake_install.cmake")
   include("E:/Test/OpenGLES_Test/build/Chapter_14/Shadows/cmake_install.cmake")
   include("E:/Test/OpenGLES_Test/build/Chapter_14/TerrainRendering/cmake_install.cmake")
+  include("E:/Test/OpenGLES_Test/build/Test/myGlTest/cmake_install.cmake")
 
 endif()
 
